@@ -1,8 +1,8 @@
-// Without nesting
+// Bez zagnieżdzenia
 .table > thead > tr > th { … }
 .table > thead > tr > td { … }
 
-// With nesting
+// Używając zagnieżdzenia
 .table > thead > tr {
   > th { … }
   > td { … }
